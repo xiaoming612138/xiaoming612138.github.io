@@ -26,11 +26,9 @@
             max-width: 100%;
             border-radius: 5px;
         }
-        .absolute-img {
-            margin: 10px 0;
-        }
-        .relative-img {
-            margin: 10px 0;
+        .absolute-img, .relative-img {
+            margin: 20px 0;
+            text-align: center;
         }
         .footer {
             text-align: center;
@@ -46,16 +44,17 @@
     <h2>欢迎来到我的博客</h2>
     <p>这是我的第一篇博客文章。使用 GitHub Pages 托管，完全免费！</p>
 
-    <h3>绝对路径图片示例：</h3>
+    <h3>绝对路径图片（网络图片）：</h3>
     <div class="absolute-img">
-        <img src="https://www.github.com/favicon.ico" alt="GitHub图标（绝对路径）">
-        <p>↑ 这张图片使用绝对路径：https://www.github.com/favicon.ico</p>
+        <img src="https://www.github.com/favicon.ico" alt="GitHub图标">
+        <p>↑ 绝对路径图片：https://www.github.com/favicon.ico</p>
     </div>
 
-    <h3>相对路径图片示例：</h3>
+    <h3>相对路径图片（本地上传）：</h3>
     <div class="relative-img">
-        <img src="images/photo.png" alt="我的照片（相对路径）">
-        <p>↑ 这张图片使用相对路径：images/photo.jpg</p>
+        <img src="images/photo1.png" alt="图片1">
+        <img src="images/photo2.png" alt="图片2">
+        <p>↑ 相对路径图片：images/photo1.png 和 images/photo2.png</p>
     </div>
 
     <p>GitHub Pages 让我轻松拥有自己的个人网站！</p>
